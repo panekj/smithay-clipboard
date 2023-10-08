@@ -17,5 +17,4 @@ wayland-client = { version = "0.29", features = ["use_system_lib"] }
 sctk = { package = "smithay-client-toolkit", version = "0.17", default-features = false, features = ["calloop"] }
 
 [features]
-default = ["dlopen"]
-dlopen = ["sctk/dlopen", "wayland-client/dlopen"]
+default = []
